@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#2F2F2F"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context=".MainActivity"
     tools:showIn="@layout/activity_main">
@@ -12,15 +13,17 @@
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="160dp"
-        android:layout_marginLeft="160dp"
-        android:layout_marginEnd="170dp"
-        android:layout_marginRight="170dp"
-        android:layout_marginBottom="50dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="72dp"
         android:text="Sign in"
-        android:textSize="18sp"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
         app:layout_constraintBottom_toTopOf="@+id/textUsername"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.472"
         app:layout_constraintStart_toStartOf="parent" />
 
     <EditText
@@ -31,13 +34,15 @@
         android:layout_marginLeft="22dp"
         android:layout_marginEnd="22dp"
         android:layout_marginRight="22dp"
-        android:layout_marginBottom="40dp"
+        android:layout_marginBottom="20dp"
         android:width="320dp"
         android:ems="10"
         android:hint="Username"
         android:inputType="textPersonName"
+        android:textColorHint="#FFFFFF"
         app:layout_constraintBottom_toTopOf="@+id/textPass"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.489"
         app:layout_constraintStart_toStartOf="parent" />
 
     <EditText
@@ -48,13 +53,15 @@
         android:layout_marginLeft="22dp"
         android:layout_marginEnd="22dp"
         android:layout_marginRight="22dp"
-        android:layout_marginBottom="57dp"
+        android:layout_marginBottom="56dp"
         android:width="320dp"
         android:ems="10"
         android:hint="Password"
         android:inputType="textPassword"
+        android:textColorHint="#FFFFFF"
         app:layout_constraintBottom_toTopOf="@+id/buttonLogin"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.489"
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
@@ -65,12 +72,30 @@
         android:layout_marginLeft="19dp"
         android:layout_marginEnd="19dp"
         android:layout_marginRight="19dp"
-        android:layout_marginBottom="120dp"
+        android:layout_marginBottom="64dp"
         android:width="300dp"
-        android:background="#6390FF"
+        android:background="#F2FF27"
         android:text="Login"
+        app:layout_constraintBottom_toTopOf="@+id/signupbutton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/signupbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="49dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="44dp"
+        android:background="#007915"
+        android:text="Sign Up"
+        android:textColor="#FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent" />
 
 </android.support.constraint.ConstraintLayout>

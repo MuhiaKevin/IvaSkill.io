@@ -1,0 +1,52 @@
+Get Categories => https://trendyskills.com/service?q=categories&key=aYIRhyWdyDfYnzhn
+
+
+Refernce - https://skillcrush.com/2018/07/30/best-javascript-frameworks-2018/
+
+
+https://www.stackoverflowbusiness.com/uk/talent/resources/developer-ecosystem-2018-predictions
+
+
+https://research.hackerrank.com/developer-skills/2018/?utm_medium=email&utm_source=drip
+
+
+https://www.quora.com/What-are-the-most-in-demand-programming-software-engineering-skills
+
+
+
+Categories: 
+
+    latest programming languages
+        - javascript
+        - Java
+        - Python 
+        - PHP
+        - C++
+        - C#
+        - TypeScript
+
+
+    Latest Technological stack On demand
+        - Machine Learning and AI
+        - Blockchain development
+        - Mobile Application Development
+        - Front End development
+        - Backend Development
+        - Cyber Security Expert
+
+ 
+    Web Frameworks
+        - Express.js
+        - Python Flask
+        - Python Django
+        - Lavrael
+        - Ruby on Rails
+        - Asp.net 
+
+    Javascript Frameworks & Libraries
+      - Vue Js
+      - React Js
+      - Angular Js
+      - Ember js
+      - Node Js
+      - Meteor Js

@@ -25,7 +25,7 @@ public class Signup extends AppCompatActivity  {
         setContentView(R.layout.activity_signup);
 
         myDatabase = openOrCreateDatabase(DATABASE_NAME, MODE_PRIVATE,null);
-//        createTable(); // call method to create the database
+       //createTable(); // call method to create the database
 
         firstName = (EditText) findViewById(R.id.editTextFirstName);
         lastName = (EditText) findViewById(R.id.editTextLastName);

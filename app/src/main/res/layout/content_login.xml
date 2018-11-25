@@ -4,10 +4,27 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#2F2F2F"
+    android:background="#3489db"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context=".LoginActivity"
-    tools:showIn="@layout/activity_main">
+    tools:showIn="@layout/activity_login">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="123dp"
+        android:layout_height="89dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="129dp"
+        android:layout_marginLeft="129dp"
+        android:layout_marginEnd="148dp"
+        android:layout_marginRight="148dp"
+        android:layout_marginBottom="36dp"
+        android:src="@drawable/ivlogo"
+        app:layout_constraintBottom_toTopOf="@+id/textView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+    <!-- Place your company logo in the src attribute -->
+    <!-- Logo Ends -->
 
     <TextView
         android:id="@+id/textView2"
@@ -17,7 +34,7 @@
         android:layout_marginLeft="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
-        android:layout_marginBottom="72dp"
+        android:layout_marginBottom="48dp"
         android:text="Sign in"
         android:textColor="#FFFFFF"
         android:textSize="24sp"
@@ -53,7 +70,7 @@
         android:layout_marginLeft="22dp"
         android:layout_marginEnd="22dp"
         android:layout_marginRight="22dp"
-        android:layout_marginBottom="56dp"
+        android:layout_marginBottom="40dp"
         android:width="320dp"
         android:ems="10"
         android:hint="Password"
@@ -84,13 +101,13 @@
     <Button
         android:id="@+id/signupbutton"
         android:layout_width="wrap_content"
-        android:layout_height="49dp"
+        android:layout_height="34dp"
         android:layout_marginStart="8dp"
         android:layout_marginLeft="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
         android:layout_marginBottom="44dp"
-        android:background="#007915"
+        android:background="#01B169"
         android:text="Sign Up"
         android:textColor="#FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"

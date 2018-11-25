@@ -4,10 +4,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#2F2F2F"
+    android:background="#3489db"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context=".Signup"
     tools:showIn="@layout/activity_signup">
+
+
+
 
     <TextView
         android:id="@+id/textView3"
@@ -124,8 +127,9 @@
         android:layout_marginRight="8dp"
         android:layout_marginBottom="44dp"
         android:width="300dp"
-        android:background="#F2FF27"
+        android:background="#01B169"
         android:text="Sign Up"
+        android:textColor="#FFF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />

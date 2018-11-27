@@ -23,12 +23,12 @@
         <activity
             android:name=".Signup"
             android:label="@string/title_activity_signup"
-            android:theme="@style/AppTheme.NoActionBar">
-
-        </activity>
-        <activity android:name=".MainActivity">
-
-        </activity>
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity android:name=".MainActivity"></activity>
+        <activity
+            android:name=".ListTechnologiesMain"
+            android:label="@string/title_activity_list_techonologies"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>

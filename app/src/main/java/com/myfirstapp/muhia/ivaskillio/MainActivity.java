@@ -15,12 +15,13 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
     String[] options = {  "Latest Technological Stack", "Programming languages", "Web Frameworks",
             "Javascript Frameworks & Libraries"};
 
+    public static final Spinner spin = (Spinner) findViewById(R.id.spinner); // creating instance of spinner
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        Spinner spin = (Spinner) findViewById(R.id.spinner); // creating instance of spinner
+
         spin.setOnItemSelectedListener(this);
 
 
@@ -43,5 +44,8 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
     @Override
     public void onNothingSelected(AdapterView<?> arg0) {
         // TODO Auto-generated method stub
+        String text = spin.getSelectedItem().toString(); // get  spinner text selected
+
+
     }
 }

@@ -25,7 +25,6 @@ public class LoginActivity extends AppCompatActivity {
 
         /*
             TODO
-
             1. Add recycler and link with this activity.
             2.
 

@@ -53,22 +53,22 @@ public class Signup extends AppCompatActivity  {
         String password = passwordText.getText().toString().trim();
 
         if (firstname.isEmpty()) {
-            firstName.setError("First name cannot be found!");
+            firstName.setError("Required! ");
             firstName.requestFocus();
             return;
         }
         if (lastname.isEmpty()) {
-            lastName.setError("Last name cannot be found!");
+            lastName.setError("Required!");
             lastName.requestFocus();
             return;
         }
         if (email.isEmpty()) {
-            emailText.setError("Email cannot be found!");
+            emailText.setError("Required!");
             emailText.requestFocus();
             return;
         }
         if (password.isEmpty()) {
-            passwordText.setError("Password cannot be found!");
+            passwordText.setError("Required!");
             passwordText.requestFocus();
             return;
         }
